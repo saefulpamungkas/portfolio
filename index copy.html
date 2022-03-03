@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Saeful</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Portofolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>Saya <span class="home__title-color">Saeful</span><br> Web Designer dan <br> Animator</h1>
+
+                    <a href="#contact" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.youtube.com/channel/UC8kPDeceo9eMRNtbQ9VDQSw" class="home__social-icon"><i class='bx bxl-envelope'>
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="0.86em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1536 1792"><path fill="currentColor" d="M971 1244v211q0 67-39 67q-23 0-45-22v-301q22-22 45-22q39 0 39 67zm338 1v46h-90v-46q0-68 45-68t45 68zm-966-218h107v-94H138v94h105v569h100v-569zm288 569h89v-494h-89v378q-30 42-57 42q-18 0-21-21q-1-3-1-35v-364h-89v391q0 49 8 73q12 37 58 37q48 0 102-61v54zm429-148v-197q0-73-9-99q-17-56-71-56q-50 0-93 54V933h-89v663h89v-48q45 55 93 55q54 0 71-55q9-27 9-100zm338-10v-13h-91q0 51-2 61q-7 36-40 36q-46 0-46-69v-87h179v-103q0-79-27-116q-39-51-106-51q-68 0-107 51q-28 37-28 116v173q0 79 29 116q39 51 108 51q72 0 108-53q18-27 21-54q2-9 2-58zM790 525V315q0-69-43-69t-43 69v210q0 70 43 70t43-70zm719 751q0 234-26 350q-14 59-58 99t-102 46q-184 21-555 21t-555-21q-58-6-102.5-46T53 1626q-26-112-26-350q0-234 26-350q14-59 58-99t103-47q183-20 554-20t555 20q58 7 102.5 47t57.5 99q26 112 26 350zM511 0h102L492 399v271H392V399q-14-74-61-212Q294 84 266 0h106l71 263zm370 333v175q0 81-28 118q-38 51-106 51q-67 0-105-51q-28-38-28-118V333q0-80 28-117q38-51 105-51q68 0 106 51q28 37 28 117zm335-162v499h-91v-55q-53 62-103 62q-46 0-59-37q-8-24-8-75V171h91v367q0 33 1 35q3 22 21 22q27 0 57-43V171h91z"/></svg>
+                    </i></a>
+                    <a href="https://www.instagram.com/p/CD6xyOXBXWc/?utm_medium=copy_link" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/profil1.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/profil2.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Hi, saya Saeful</h2>
+                        <p class="about__text" align="justify">Nama lengkap saya Saeful Pamungkas, saya adalah Mahasiswa Informatika penjurusan Rekayasa Perangkat Lunak di Universitas Muhammadiyah Surakarta semester 6 tahun 2019-sekarang. Saya suka belajar tentang hal baru seperti dunia IT. 
+                            Motto hidup usaha dan berkerja keras demi hidup lebih baik.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Skills</h2>
+                        <p class="skills__text">Skill yang saya miliki: </p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">50%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UX/UI</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M0 .401v31.198h32V.401zm1.333 1.333h29.333v28.531H1.333zm9.766 16.334l-1.057 3.995c-.021.115-.063.135-.193.135H7.891c-.135 0-.156-.042-.135-.193l3.786-13.26c.068-.24.109-.453.13-1.115c0-.089.047-.13.115-.13h2.792c.089 0 .135.021.156.13l4.245 14.396c.026.109 0 .172-.109.172h-2.198c-.115 0-.177-.026-.198-.115l-1.104-4.016h-4.276zm3.719-2.167c-.375-1.474-1.255-4.703-1.583-6.266h-.026c-.281 1.557-.99 4.198-1.536 6.266zm6-7.411c0-.859.594-1.365 1.365-1.365c.813 0 1.365.552 1.365 1.365c0 .88-.573 1.365-1.391 1.365c-.797 0-1.344-.484-1.344-1.365zm.151 3.031c0-.104.042-.146.151-.146h2.094c.12 0 .161.042.161.156v10.526c0 .109-.021.151-.156.151h-2.063c-.135 0-.177-.063-.177-.172V11.52z"/></svg>
+                                </i>
+                                
+                                <span class="skills__name">Adobe Ilustrator</span>
+                            </div>
+                            <div class="skills__bar skills__ai">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='skills__icon'>
+                                    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32"><path fill="currentColor" d="M0 .401v31.198h32V.401zm1.333 1.333h29.333v28.531H1.333zm7.063 5.969c0-.089.021-.156.135-.156a76.727 76.727 0 0 1 3.427-.063c3.698 0 5.302 2.026 5.302 4.62c0 3.385-2.448 4.839-5.464 4.839c-.505 0-.682-.021-1.036-.021v5.125c0 .109-.042.151-.151.151H8.552c-.115 0-.156-.042-.156-.151zm2.364 7.083c.313.021.552.021 1.083.021c1.557 0 3.021-.547 3.021-2.661c0-1.693-1.042-2.552-2.828-2.552c-.526 0-1.031.026-1.276.047zm8.537-1.208c0-.156 0-.552-.068-1.297c0-.109.016-.135.104-.177a13.829 13.829 0 0 1 4.875-.922c.109 0 .156.021.156.13v1.938c0 .109-.036.13-.146.13a7.604 7.604 0 0 0-2.521.266v8.401c0 .109-.047.151-.156.151h-2.094c-.109 0-.151-.042-.151-.151z"/></svg>
+                                </i>
+                                <span class="skills__name">Adobe Premiere</span>
+                            </div>
+                            <div class="skills__bar skills__pr">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== Portofolio =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Portofolio</h2>
+
+                <div class="work__container bd-grid">
+                    <a href="https://www.youtube.com/watch?v=y2BHdXvY91c" class="work__img">
+                        <img src="assets/img/work1.png" alt="">
+                    </a>
+                    <a href="https://drive.google.com/file/d/16HyToA6U-uhTMnMnB3viSBW0a7HlPaeh/view?usp=sharing" class="work__img">
+                        <img src="assets/img/work2.gif" alt="">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1Nae0p1pdW8hYRK1bFfkMyXPFkyAhd-xc/view?usp=sharing" class="work__img">
+                        <img src="assets/img/work3.png" alt="">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1FC7Wh5RmrO0dm7A0y7wx5K5RdvwLefx-/view?usp=sharing" class="work__img">
+                        <img src="assets/img/work4.png" alt="">
+                    </a>
+                    <a href="https://www.instagram.com/p/CD6xyOXBXWc/?utm_medium=copy_link" class="work__img">
+                        <img src="assets/img/work5.png" alt="">
+                    </a>
+                    <a href="http://l200190034pwd.epizy.com/" class="work__img">
+                        <img src="assets/img/work6.png" alt="">
+                    </a>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__form">
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+    
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">081234233165</span>
+                            </div>
+                        </div>
+    
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+    
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">ipulboy159@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+    
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Sragen - Jawa Tengah Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Kirim" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Saeful</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.instagram.com/p/CD6xyOXBXWc/?utm_medium=copy_link" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Saeful. All rigths reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
